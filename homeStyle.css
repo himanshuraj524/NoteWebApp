@@ -87,7 +87,7 @@ body {
 }
 
 /*textarea inside the form*/
-.form textarea {
+.inputfield{
   background-color: #e0ece4;
   margin: 10px;
   outline: none;
@@ -100,7 +100,7 @@ body {
 .cardbox {
   display: flex;
   /* width: inherit; */
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
