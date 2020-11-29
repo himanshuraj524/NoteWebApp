@@ -71,6 +71,8 @@ searchtxt.addEventListener('input', function searchnotes() {
 
         } else {
             element.style.display = "none";
+            let notesElem = document.getElementById('myNotes');
+            notesElem.innerHTML = `<p class="content" >Nothing to show! Use "Add a Note" section above to add notes.</p>`;
         };
     });
 });
