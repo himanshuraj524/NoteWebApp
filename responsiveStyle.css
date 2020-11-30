@@ -1,0 +1,67 @@
+/*designing navbar*/
+.navbar{
+    /* width: 18.5rem; */
+    width: 80vw;
+    flex: 1 1 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: .4em auto;
+
+}
+
+/*navbar heading*/
+.heading{
+    font-size: 6vw;
+    flex: 1 1 auto;
+}
+
+/*navbar search bar*/
+.input{
+    font-size: 5vw;
+}
+
+/*navbar button*/
+.btn{
+    font-size: 5vw;
+}
+
+/*main container*/
+.container{
+    width: 80vw;
+    flex: 1 1 auto;
+}
+
+/*box-1*/
+.box-1{
+    flex: 1 1 auto;
+}
+
+/*form inside the box-1*/
+.form{
+    flex: 1 1 auto;
+}
+/*textarea and input inside the form*/
+.inputfield{
+    font-size: 3.2vw;
+    resize: none;
+}
+
+/*cardbox container*/
+.cardbox{
+    flex: 1 1 auto;
+}
+/*card inside the cardbox*/
+.card{
+    width: 50vw;
+}
+
+/*heading inside the card*/
+.card .heading{
+    font-size: 6vw;
+}
+
+/*content indside the card*/
+.content{
+    font-size: 5vw;
+}
