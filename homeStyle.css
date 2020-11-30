@@ -99,7 +99,6 @@ body {
 /*cardbox container*/
 .cardbox {
   display: flex;
-  /* width: inherit; */
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -110,7 +109,6 @@ body {
   width: 11em;
   margin: 1em;
   padding: 1em;
-  /* background-color: #e0ece4; */
   border: 1px solid #e0ece4;
   border-radius: 5px;
   box-shadow: inset 0px 0px 2px 1px #e0ece4;
